@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Imgur: The magic of the Internet</title>
+</head>
+<body>
+    <div id="container">
+        <div id="search-bar">
+            <img id="img1" src="./png1.png" height="60px" width="110px"; alt="img">
+            <img src="./newpost.png" width="24%" height="60px" alt="img">
+            <div id="input-div">
+                <input type="text" id="search-input" oninput="debounce(displayRes, 1000)" placeholder="Images, #tags, @users, oh my! " name="search">
+                <i class="fa fa-search fa-lg" style="margin-right: 1.5%;"></i>
+            </div>
+            <div id="right-en">
+                <img style="margin-top: 3%;" src="./turned-in-not-1781622.png" width="32px" height="35px" alt="turned">
+                <button id="btn-1">Go Add-Free</button>
+                <button id="btn-2"> Sign in</button>
+                <button id="btn-3">Sign up</button>
+            </div>
+        </div>
+
+        <div id="search-res">
+        </div>
+        
+        <h2>Choosy moms choose GIF.</h2>
+        <div class="tags-div">
+            <div id="tag-h">
+                <h4>EXPLORE TAGS</h4>
+                <h4>MORE TAGS +</h4>
+            </div>
+            <div class="cards">
+                <div class="cards_1" id="card1">
+                        <img src="./card1.png" height="60%" width="100%" alt="img">
+                    <div class="card-bottom" style="background-color: #26606e; margin-top: -12%; height: 40%;">
+                        <h5 style="text-align: center; color: white;">Space</h5>
+                        <h6 style="margin-top: -5%; color: #869c97;text-align: center;">FEATURED: 28306 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card2.png" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #4d549a; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Imgur13</h5>
+                        <h6 style="margin-top: -3%; color: #869c97;text-align: center;">7838 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card3.png" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #328d67; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Vintage</h5>
+                        <h6 style="margin-top: -3%; color: #869c97;text-align: center;">8931 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card4.png" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #c56579; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Pokemon</h5>
+                        <h6 style="margin-top: -3%; color: #869c97;text-align: center;">52595 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card5.jpg" height="37%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #328d67; margin-top: -26%; height: 62%;">
+                        <h5 style="text-align: center; color: white;">Black <br/> History<br/> Month</h5>
+                        <h6 style="margin-top: -3%; color: #869c97;text-align: center;">184 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card10.png" height="45%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #e47d57; margin-top: -26%; height: 55%;">
+                        <h5 style="text-align: center; color: white;">Science And <br/> Tech</h5>
+                        <h6 style="margin-top: -3%; color: #869c97;text-align: center;">7838 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card6.png" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #132d31; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Staff Picks</h5>
+                        <h6 style="margin-top: -3%; color: #f1bba5;text-align: center;">7838 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card7.png" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #2b1a5a; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Gaming</h5>
+                        <h6 style="margin-top: -3%; color: #938aab;text-align: center;">7838 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card8.png" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #ba519f; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Memes</h5>
+                        <h6 style="margin-top: -3%; color: #dba6ce;text-align: center;">7838 Posts</h6>
+                    </div>
+                </div>
+
+                <div class="cards_1">
+                    <!-- <div> -->
+                    <img src="./card9.jpg" height="57%" width="100%" alt="img">
+                    <!-- </div> -->
+                    <div class="card-bottom" style="background-color: #ab80b8; margin-top: -26%;">
+                        <h5 style="text-align: center; color: white;">Oc</h5>
+                        <h6 style="margin-top: -3%; color: #d4beda;text-align: center;">7838 Posts</h6>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="last-divC">
+            <div style="display: flex; color: #bab5b8;" onclick="showDropDown1()">
+                <h4>MOST VIRAL</h4>
+                <h4><i class="fa fa-sort-desc" aria-hidden="true"></i></h4><br>
+            </div>
+            <div style="display: flex; color: #bab5b8;" onclick="showDropDown2()">
+                <h4>NEWEST<i class="fa fa-sort-desc" aria-hidden="true"></i></h4>
+            </div>
+        </div>
+
+        
+    </div>
+    <div id="footerC">
+        <div id="drop-downC">
+            <div class="drop-down" id="drop-down1" style="visibility: hidden;">
+                <h5 style="color: white;">MOST VIRAL</h5>
+                <h5>USER SUBMITTED</h5>
+                <h5>HIGHEST SCORING</h5>
+            </div>
+            <div class="drop-down" style="width: 7%;" id="drop-down2" style="visibility: hidden;">
+                <h5 style="color: white;">NEWEST</h5>
+                <h5>POPULAR</h5>
+                <h5>RANDOM</h5>
+            </div>
+        </div>
+        <div id="data_divC">
+
+        </div>
+    
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
